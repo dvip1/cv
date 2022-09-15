@@ -1,0 +1,47 @@
+.top img{
+    background: whitesmoke;
+    border-radius: 46%;
+}
+.qual{
+    border-collapse: collapse;
+    border: 1px solid grey;
+    letter-spacing: 1px;
+}
+caption{
+    caption-side: bottom;
+    color: floralwhite;
+}
+.qual td, th{
+    border: 1px solid grey;
+    padding: 7px 5px;
+}
+.qual th{
+    border: 1px solid grey;
+}
+.qual td{
+    text-align: center;
+}
+.skills{
+    border-collapse: collapse;
+    /*border: 2px solid rgb(200, 200, 200);*/
+    letter-spacing: 1px;
+}
+.skills td, th{
+    /*border: 1px solid rgb(190, 190, 190);*/
+    padding: 7px 5px;
+    text-align: left;
+}
+body{
+    background-color: #FA7070;
+}
+hr{
+    color: #FBF2CF;
+    border-style: none;
+    border-top-style: none;
+    height: 2px;
+    border-top: dotted 5px;
+    width: 4%;
+}
+h1, h3{
+    color: #FFE9A0;
+}
