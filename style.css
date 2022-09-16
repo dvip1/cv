@@ -2,29 +2,17 @@
     background: whitesmoke;
     border-radius: 46%;
 }
-.qual{
-    border-collapse: collapse;
-    border: 1px solid grey;
-    letter-spacing: 1px;
-}
+
 caption{
     caption-side: bottom;
     color: floralwhite;
 }
-.qual td, th{
-    border: 1px solid grey;
-    padding: 7px 5px;
-}
-.qual th{
-    border: 1px solid grey;
-}
-.qual td{
-    text-align: center;
-}
+
 .skills{
     border-collapse: collapse;
     /*border: 2px solid rgb(200, 200, 200);*/
     letter-spacing: 1px;
+
 }
 .skills td, th{
     /*border: 1px solid rgb(190, 190, 190);*/
@@ -40,8 +28,40 @@ hr{
     border-top-style: none;
     height: 2px;
     border-top: dotted 5px;
-    width: 4%;
+    width: 5%;
 }
 h1, h3{
     color: #FFE9A0;
+}
+.top{
+    align-items: center;
+}
+a{
+    color: #F5E8E4;
+    background-color: transparent;
+    text-decoration: unset;
+}
+a:hover{
+    color: floralwhite;
+}
+img{
+    background-color: #FCE2DB;
+    border-radius: 50%;
+}
+.workexp{
+    text-align: center;
+}
+.workexp table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.myskill{
+    text-align: center;
+}
+.myskill table{
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer{
+    text-align: center;
 }
