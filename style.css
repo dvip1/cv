@@ -1,3 +1,41 @@
+:root{
+    --background-color: #F4F2DE;
+    --color1: #A1CCD1;
+    --color2: #E9B384;
+    --color3: #7C9D96;
+}
+body{
+    background-color: var(--background-color);
+    padding: 0;
+    margin: 0;
+}
+nav{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    background: rgba(161, 204, 209, 0.2);
+    margin-bottom: 2rem;
+}
+ul{
+    list-style: none;
+}
+li{
+  
+    float: left;
+    padding: 0 1rem;
+}
+li a{
+      color: var(--color2);
+}
+li a:hover{
+    color: black;
+}
+#hero{
+    margin-top: 1rem;
+}
 .top img{
     background: whitesmoke;
     border-radius: 46%;
@@ -19,11 +57,9 @@ caption{
     padding: 7px 5px;
     text-align: left;
 }
-body{
-    background-color: #FA7070;
-}
+
 hr{
-    color: #FBF2CF;
+    color: #D4E2D4 ;
     border-style: none;
     border-top-style: none;
     height: 2px;
@@ -31,30 +67,34 @@ hr{
     width: 5%;
 }
 h1, h3{
-    color: #FFE9A0;
+    color: var(--color3);
 }
 .top{
     align-items: center;
 }
 a{
-    color: #F5E8E4;
+    color: var(--color2);
     background-color: transparent;
     text-decoration: unset;
 }
-a:hover{
-    color: floralwhite;
-}
+
 img{
-    background-color: #FCE2DB;
+    background-color: var(--color2);
     border-radius: 50%;
 }
+#education .fa-solid{
+    color: var(--color2);
+}
+
 .workexp{
     text-align: center;
 }
 .workexp table{
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
+    
 }
+
 .myskill{
     text-align: center;
 }
@@ -64,4 +104,37 @@ img{
 }
 .footer{
     text-align: center;
+}
+
+#contact-info{
+    margin: 1rem 2rem 3rem;
+    text-align: center;
+}
+#contact-info h1{
+    color: var(--color3);
+    font-size: 2rem;
+}
+#contact-info ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#form{
+    text-align: center;
+}
+#form .container{
+    padding: 0.25rem;
+}
+#form button{
+    background-color: var(--color2);
+    color: var(--background-color);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+#form button:hover{
+    background-color: var(--color1);
 }
